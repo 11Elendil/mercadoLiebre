@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+header{
+background-color:#EAC926;
+padding:3%;
+
+}
+header nav{
+    font-size: 12px;
+    justify-content: space-between;
+    display: none;
+    align-items: flex-end;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    
+    
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+  
+}
+
+header div.logoBarra{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+header div.lupa{
+    background-color:white;
+}
+header div.logo{
+    width: 32%;
+    
+    display: flex;
+}
+header div.busqueda{
+    width: 32%;
+    
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav div.opciones1{
+    display:flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 15px;
+    }
+nav div.opciones2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 15px;
+}
+
+
+.burger-menu {
+    text-align: center;
+}
+.burger-menu i{
+    padding: 10px;
+    color: white;
+    background-color:#1259c3;
+    border-radius: 7px;   
+}
+.cec{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+        
+    }
+    
+
+h1,h2 {
+    font-size: 24px;  
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+main{
+    box-sizing: border-box;
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+}
+main section article img{
+    width: 100%;
+}
+.camion{
+    display: block;
+    font-size: 20px;
+    padding: 6px;
+    width: 28px;
+    height: 27px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: -209px;
+    top: -20px;
+    color: #39b54a;
+    position: relative;
+    
+}
+
+.descArt{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    
+}
+
+.descuento{
+    color: #39b54a;
+}
+article{
+     margin: 10px 0px;
+     border-top: 1px solid #ebebeb;
+     background-color: #fff;    
+     padding:15px; 
+     display: flex;
+     flex-wrap: wrap ;
+}
+nav{display: none;}
+.precio {
+    font-size: 18px;
+    width: 30%;
+    margin: 0px;
+}
+.descuento{
+    font-size: 16px;
+    width: 70%;
+    margin: 0px;
+}
+.pd{
+    display: flex;
+}
+.descripcion {
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 450ms;
+}
+.textofooter{
+    text-align: center;
+    justify-content: center;
+
+    }
+    .textofooter2{
+        text-align: center;
+        justify-content: center;
+    }
+    .textofooter3{
+        text-align: center;
+        justify-content: center;
+    }
+.tarjeta{
+    text-align: center;
+
+}
+
+.tarjeta i{
+color: #1259c3;
+font-size: 2em;
+}
+
+.regalo i{
+color: #1259c3;
+font-size: 2em;
+}
+.regalo {
+    text-align: center;}
+.escudo i{
+color: #1259c3;
+font-size: 2em;
+}
+.escudo{
+    text-align: center;}
+    
+.productos{
+    display: flex;
+    flex-direction: column;
+
+}     
+footer div.copy{
+    font-size: 10px;
+    text-align: center;
+}
+    
+
+    @media (min-width: 425px ){
+        .descripcion{
+        
+        margin-top: 20px;
+    }
+    .descripcion :hover{
+        opacity: 1;
+        
+    }
+    header div.logoBarra{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:unset;
+        align-items: center;
+        padding: 0px 0px 25px;
+    
+        
+    }
+       
+    
+    article{
+        width: 40%;
+        transition: all 0.5s;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+        
+    }
+    
+    .productos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       }
+       
+    header nav{display: flex;
+    }
+    .burger-menu{
+    display: none;
+    }
+        }
+    
+    @media (min-width: 769px){
+       
+        .descripcion :hover{
+            opacity: 1;
+        }
+        footer{
+            display: flex;
+        }
+        header div.logoBarra{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap:unset;
+            align-items: center;
+            padding: 0px 0px 25px;
+        
+        }
+        .camion{
+            display: block;
+            font-size: 20px;
+            padding: 6px;
+            width: 28px;
+            height: 27px;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            right: -138px;
+            top: -20px;
+            color: #39b54a;
+            position: relative;
+            transition: all 0.5s;
+
+        }
+        .camion :hover{
+            transform: rotate(270deg);
+
+        }
+
+        article{
+            width: 20%;
+        }
+        header nav{display: flex;}
+        .burger-menu{
+            display: none;
+        }
+       
+    }
