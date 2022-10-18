@@ -163,6 +163,9 @@ nav{display: none;}
     opacity: 0;
     transition: opacity 450ms;
 }
+.descripcion :hover{
+    opacity: 1;
+}
 .textofooter{
     text-align: center;
     justify-content: center;
@@ -215,10 +218,7 @@ footer div.copy{
         
         margin-top: 20px;
     }
-    .descripcion :hover{
-        opacity: 1;
-        
-    }
+    
     header div.logoBarra{
         display: flex;
         justify-content: space-around;
@@ -254,9 +254,7 @@ footer div.copy{
     
     @media (min-width: 769px){
        
-        .descripcion :hover{
-            opacity: 1;
-        }
+        
         footer{
             display: flex;
         }
