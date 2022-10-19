@@ -197,7 +197,7 @@ body{
         padding: 2%
     }
     main .botonEnviar{
-        background:#1259c3;
+        
         text-decoration: none;
         color: white;
        border-radius: 7px;  
@@ -206,9 +206,8 @@ body{
         margin: 7%;
         
     }
-    main .botonEnviar :hover{
-        background: #0022AA;
-    }
+    
+    
     button[value="ENVIAR"] {
         background:#1259c3;
         text-decoration: none;
@@ -218,12 +217,14 @@ body{
         border: none;
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
+        line-height: 50px;
+        text-align: center;
+        width: 255px;
+        height: 49px;
+       }
        
-        
-      }
-      .botonEnviar:hover {
-        background-color: #0022AA;
-      }
+      
+      
       .search{
         border: none;
     }

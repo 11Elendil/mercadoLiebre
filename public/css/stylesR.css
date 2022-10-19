@@ -219,8 +219,11 @@ body{
         border: none;
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
-        
-      }
+        line-height: 50px;
+        text-align: center;
+        width: 255px;
+        height: 49px;
+       }
       
     @media (min-width: 425px ){
         .descripcion{
