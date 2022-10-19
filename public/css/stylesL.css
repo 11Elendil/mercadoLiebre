@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+header{
+background-color:#EAC926;
+padding:2%;
+
+}
+header nav{
+    font-size: 12px;
+    justify-content: space-between;
+    display: none;
+    align-items: flex-end;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+header div.logoBarra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header .search{
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    flex-grow: 1;
+    width: 50%;
+    border:none
+
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-size:21px;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border:none;
+    border-radius: 7px;
+}
+header div.lupa{
+    background-color:white;
+}
+header div.logo{
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    padding: 0px 5px;
+}
+header div.busqueda{
+    width: 32%;
+    
+    display: flex;
+    }
+    h1{
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 24px; 
+        text-align: left; 
+    }
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav div.opciones1{
+    display:flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 15px;
+    }
+nav div.opciones2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 15px;
+}
+
+
+.burger-menu {
+    text-align: center;
+}
+.burger-menu i{
+    padding: 10px;
+    color: white;
+    background-color:#1259c3;
+    border-radius: 7px;   
+}
+.cec{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+.nombre{
+    border: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+        
+    }
+    .textofooter{
+        text-align: center;
+        justify-content: center;
+    
+        }
+        .textofooter2{
+            text-align: center;
+            justify-content: center;
+        }
+        .textofooter3{
+            text-align: center;
+            justify-content: center;
+        }
+    .tarjeta{
+        text-align: center;
+    
+    }
+    
+    .tarjeta i{
+    color: #1259c3;
+    font-size: 2em;
+    }
+    .tarjeta i:hover{
+        color: #0022AA;
+        font-size: 3em;
+        }
+    
+    .regalo i{
+    color: #1259c3;
+    font-size: 2em;
+    }
+    .regalo i:hover{
+        color: #0022AA;
+        font-size: 3em;
+        }
+    .regalo {
+        text-align: center;}
+    .escudo i{
+    color: #1259c3;
+    font-size: 2em;
+    }
+    .escudo i:hover{
+        color: #0022AA;
+        font-size: 3em;
+        }
+    .escudo{
+        text-align: center;}
+        
+    .productos{
+        display: flex;
+        flex-direction: column;
+    
+    }     
+    footer div.copy{
+        font-size: 10px;
+        text-align: center;
+    }
+    footer{
+        padding: 2%
+    }
+    main .botonEnviar{
+        background:#1259c3;
+        text-decoration: none;
+        color: white;
+       border-radius: 7px;  
+        text-align: center;
+        padding: 10px;
+        margin: 7%;
+        
+    }
+    main .botonEnviar :hover{
+        background: #0022AA;
+    }
+    button[value="ENVIAR"] {
+        background:#1259c3;
+        text-decoration: none;
+        color: white;
+       border-radius: 7px;  
+        text-align: center;
+        border: none;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+       
+        
+      }
+      .botonEnviar:hover {
+        background-color: #0022AA;
+      }
+      .search{
+        border: none;
+    }
+    form {
+        justify-content: center;
+        text-align: center;
+    }
+    @media (min-width: 425px ){
+        .descripcion{
+        
+        margin-top: 20px;
+    }
+    
+    header div.logoBarra{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:unset;
+        align-items: center;
+        padding: 0px 0px 25px;
+    
+        
+    }
+       
+    
+    article{
+        width: 40%;
+        transition: all 0.5s;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+        
+    }
+    
+    .productos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       }
+       
+    header nav{display: flex;
+    }
+    .burger-menu{
+    display: none;
+    }
+    .textofooter{
+    text-align: center;
+    justify-content: center;
+
+    }
+    .textofooter2{
+        text-align: center;
+        justify-content: center;
+    }
+    .textofooter3{
+        text-align: center;
+        justify-content: center;
+    }
+.tarjeta{
+    text-align: center;
+
+}
+
+.tarjeta i{
+color: #1259c3;
+font-size: 2em;
+}
+
+.regalo i{
+color: #1259c3;
+font-size: 2em;
+}
+.regalo {
+    text-align: center;}
+.escudo i{
+color: #1259c3;
+font-size: 2em;
+}
+.escudo{
+    text-align: center;}
+    
+.productos{
+    display: flex;
+    flex-direction: column;
+
+}     
+footer div.copy{
+    font-size: 10px;
+    text-align: center;
+}
+footer{
+    padding: 2%
+}
+        }
+    
+    @media (min-width: 769px){
+       
+        
+        footer{
+            display: flex;
+        }
+        header div.logoBarra{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap:unset;
+            align-items: center;
+            padding: 0px 0px 10px;
+        
+        }
+        .camion{
+            display: block;
+            font-size: 20px;
+            padding: 6px;
+            width: 28px;
+            height: 27px;
+            border: 1px solid #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            right: -138px;
+            top: -20px;
+            color: #39b54a;
+            position: relative;
+            transition: all 0.10s;
+
+        }
+        .camion :hover{
+            transform: rotate(270deg);
+
+        }
+
+        article{
+            width: 20%;
+        }
+        header nav{display: flex;}
+        .burger-menu{
+            display: none;
+        }
+       
+    }
