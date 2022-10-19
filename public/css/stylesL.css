@@ -221,6 +221,10 @@ body{
         text-align: center;
         width: 255px;
         height: 49px;
+        transition: all 1s;
+       }
+       button[value="ENVIAR"] :hover{
+        background-color: #0022AA;
        }
        
       
